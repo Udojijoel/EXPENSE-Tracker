@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li span {
+    font-weight: bold;
+    display: inline-block;
+    width: 60%; /* Fixed width for the text section */
+}
+
+/* Add this to the end of style.css */
+.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.time {
+    color: #afafaf;
+    font-size: 12px;
+    font-style: italic;
+    width: 20%;
+}
+
+.task {
+    color: #333;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+/* Style the "Done" button */
+button.doneButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    width: 10%;
+}
+
+/* Style the "Delete" button */
+button.delete {
+    background-color: #FF4444; /* Red */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 10%;
+}
+
+button.addButton {
+    background-color: #4a84d1; /* Green */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    
+}
+
+button.clearButton {
+    background-color: transparent; /* Green */
+    color: #FF4444;
+    border: 1px solid #FF4444;
+    border-radius: 3px;
+    margin-right: 5px;
+}
